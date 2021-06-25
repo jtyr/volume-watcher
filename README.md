@@ -1,4 +1,8 @@
+[![Release](https://img.shields.io/github/release/jtyr/volume-watcher.svg)](https://github.com/jtyr/volume-watcher/releases)
 [![Docker build](https://img.shields.io/docker/cloud/build/jtyr/volume-watcher?label=Docker%20build&logo=docker)](https://hub.docker.com/repository/docker/jtyr/volume-watcher)
+[![Actions status](https://github.com/jtyr/volume-watcher/actions/workflows/go.yaml/badge.svg)](https://github.com/jtyr/volume-watcher/actions/workflows/go.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jtyr/volume-watcher)](https://goreportcard.com/report/github.com/jtyr/volume-watcher)
+[![License](https://img.shields.io/github/license/jtyr/volume-watcher)](LICENSE)
 
 
 volume-watcher

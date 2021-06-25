@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	build string
+	build  string
 	logger log.Logger
 )
 

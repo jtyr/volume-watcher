@@ -1,4 +1,4 @@
-module github.com/jtyr/volume-watcher-sidecar
+module github.com/jtyr/volume-watcher
 
 go 1.16
 
