@@ -1,3 +1,6 @@
+[![Docker build](https://img.shields.io/docker/cloud/build/jtyr/volume-watcher?label=Docker%20build&logo=docker)](https://hub.docker.com/repository/docker/jtyr/volume-watcher)
+
+
 volume-watcher
 ==============
 
@@ -27,7 +30,7 @@ spec:
       containers:
         # Sidecar
         - name: volume-watcher
-          image: jtyr/volume-watcher
+          image: jtyr/volume-watcher:latest
           env:
             - name: VOLUMEWATCHER_DIR
               value: /etc/agent
