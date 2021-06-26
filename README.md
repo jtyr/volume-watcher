@@ -43,7 +43,7 @@ spec:
           volumeMounts:
             - mountPath: /etc/agent
               name: agent-config
-        # Container which will be reloaded from teh sidecar
+        # Container which will be reloaded from the sidecar
         - name: agent
           ports:
             - containerPort: 8080

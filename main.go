@@ -31,6 +31,7 @@ func (vw *volumeWatcher) callEndpoint() {
 			"msg", "failed to call endpoint",
 			"endpoint", vw.Endpoint,
 			"err", err)
+		return
 	}
 
 	if resp.StatusCode < 200 || resp.StatusCode > 299 {
@@ -38,6 +39,7 @@ func (vw *volumeWatcher) callEndpoint() {
 			"msg", "wrong response status code",
 			"endpoint", vw.Endpoint,
 			"statuscode", resp.StatusCode)
+		return
 	}
 }
 
